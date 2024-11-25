@@ -1,1 +1,0 @@
-SELECT * FROM crypto_top_15;
