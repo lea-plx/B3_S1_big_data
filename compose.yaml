@@ -1,0 +1,12 @@
+services:
+  db:
+    image: mysql:9.1.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+    - b3_s1_crypto:/var/lib/mysql
+    ports:
+      - 3306:3306
+
+volumes:
+  b3_s1_crypto:
